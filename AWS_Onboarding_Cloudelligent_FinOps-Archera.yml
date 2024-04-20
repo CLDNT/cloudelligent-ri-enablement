@@ -4,6 +4,7 @@ Parameters:
   ExternalIdRI:
     Type: String
     Description: External Id for the AssumeRolePolic
+Resources:  
   ReservedAIRole:
     Type: AWS::IAM::Role
     Properties:
